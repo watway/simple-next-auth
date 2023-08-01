@@ -28,7 +28,7 @@ export default async function RootLayout({
         <NextAuthProvider>
           <div className="flex justify-center items-center min-h-screen">
             <div>
-              {session ? <LogoutButton /> : <LogoutButton />}
+              {session ? <LogoutButton /> : <LoginButton />}
               {/* <RegisterButton /> */}
               <ProfileClientButton />
               <ProfileServerButton />
