@@ -1,3 +1,18 @@
+https://codevoweb.com/setup-and-use-nextauth-in-nextjs-13-app-directory/
+https://medium.com/@rohitkumarkhatri/next-auth-in-app-router-of-next-js-7df037f7a2ad
+
+- Generate secret key `openssl rand -base64 32`
+
+/api/auth/signIn
+/api/auth/signOut
+/api/auth/callback
+
+- style the auth page - create own pages https://next-auth.js.org/configuration/pages#credentials-sign-in
+
+## TODO
+- call a login API
+- how to remove `public` from the middleware protection?
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
